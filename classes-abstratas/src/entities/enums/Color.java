@@ -1,8 +1,8 @@
 package entities.enums;
 
 public enum Color {
-    
-    BLACK,
+
+	BLACK,
 	BLUE,
 	RED;
 }
