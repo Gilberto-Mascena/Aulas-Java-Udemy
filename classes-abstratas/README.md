@@ -1,5 +1,5 @@
 # *Aulas de Java na Udemy*
 
-## *Professor*
-:---:
-*Nélio Alves*
+*Udemy* | *DevSuperior*
+---: | :---
+*Professor* | *Nélio Alves*
