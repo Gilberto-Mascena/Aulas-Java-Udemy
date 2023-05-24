@@ -8,9 +8,6 @@ public class Conta {
     private String titular;
     private Double saldo = 0.0;
 
-    public Conta(){        
-    }
-
     public Conta(Integer ag, Double numeroConta, String cpf, String titular, Double saldo) {
         this.ag = ag;
         this.numeroConta = numeroConta;
@@ -74,5 +71,5 @@ public class Conta {
         + ", CPF: " + cpf 
         + ", Titular: " + titular 
         + ", Saldo: " + saldo;
-    }    
+    }        
 }

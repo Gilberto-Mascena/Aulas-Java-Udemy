@@ -25,7 +25,5 @@ public class Program {
      */
     System.out.println(set.contains(prod));
 
-    }
-
-    
+    }    
 }

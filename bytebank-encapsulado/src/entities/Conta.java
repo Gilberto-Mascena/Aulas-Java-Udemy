@@ -17,6 +17,9 @@ public class Conta {
         System.out.println("Estou criando uma conta " + this.numero);
     }
 
+    public Conta(int ag, double conta, String cpf, String titular2, double saldo2) {
+    }
+
     public void deposita(double valor) {
         this.saldo = this.saldo + valor;
     }

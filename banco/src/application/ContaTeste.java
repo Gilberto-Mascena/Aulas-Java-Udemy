@@ -11,19 +11,26 @@ public class ContaTeste {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        
-        System.out.print("Número da agência: ");
-        int ag = sc.nextInt();
-        System.out.print("Número da conta: ");
-        double numeroDaConta = sc.nextDouble();
-        System.out.print("Número do CPF: ");
-        String cpf = sc.next();
-        System.out.print("Nome do titular: ");
-        String titular = sc.next();
 
-        Conta conta = new Conta(ag, numeroDaConta, cpf, titular, 0.0);
-                
-        System.out.println(conta);      
+        System.out.print("Digite a Agencia: ");
+        int ag = sc.nextInt();
+
+        System.out.print("Digite a Conta: ");
+        double conta = sc.nextDouble(); 
+        sc.nextLine();
+
+        System.out.print("Digite o CPF: ");
+        String cpf = sc.nextLine();
+       
+        System.out.print("Digite o Titular: ");
+        String titular = sc.nextLine();
+
+        System.out.print("Digite o Saldo: ");
+        double saldo = sc.nextDouble();
+
+        Conta c1 = new Conta(ag, conta, cpf, titular, saldo);  
+        
+        System.out.println(c1.toString());
         
         sc.close();         
     }
